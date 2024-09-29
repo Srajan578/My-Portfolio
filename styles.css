@@ -812,6 +812,11 @@ section {
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .about-container .right-about {
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 2.5rem;
+  }
+
   .about-container .left-about {
     padding-right: 0;
   }
@@ -879,6 +884,10 @@ section {
 @media screen and (max-width: 1070px) {
   .about-container {
     grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-container .right-about {
+    padding-top: 2.5rem;
   }
 
   .main-title h2 {
@@ -968,6 +977,10 @@ section {
     grid-template-columns: repeat(1, 1fr);
   }
 
+  .about-container .right-about {
+    padding-top: 2.5rem;
+  }
+
   .main-title h2 {
     font-size: 4rem;
   }
@@ -1024,6 +1037,10 @@ section {
   }
 
   .about-stats .progress-bars {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .about-container .right-about {
     grid-template-columns: repeat(1, 1fr);
   }
 
